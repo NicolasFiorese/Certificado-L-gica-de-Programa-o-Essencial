@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="nicol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-29 02:08:48 "/>
+        <attribute name="created" value="bmljb2w7REVTS1RPUC1DTjFDMlJQOzIwMjItMDctMjk7IjAxOjUyOjAxICI7Mjc3Nw=="/>
+        <attribute name="edited" value="bmljb2w7REVTS1RPUC1DTjFDMlJQOzIwMjItMDctMjk7IjAyOjA4OjQ4ICI7MTsyODk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;9 x &quot; &amp; numero &amp; &quot; &#233; igual a = &quot; &amp; numero*9" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="nicol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-25 05:35:10 "/>
+        <attribute name="created" value="bmljb2w7REVTS1RPUC1DTjFDMlJQOzIwMjItMDctMjU7IjA1OjMwOjA4ICI7Mjc4MA=="/>
+        <attribute name="edited" value="bmljb2w7REVTS1RPUC1DTjFDMlJQOzIwMjItMDctMjU7IjA1OjM1OjEwICI7MTsyODg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jan, fev, mar, abr, media" type="Integer" array="False" size=""/>
+            <input variable="jan"/>
+            <input variable="fev"/>
+            <input variable="mar"/>
+            <input variable="abr"/>
+            <assign variable="media" expression="(jan+fev+mar+abr)/4"/>
+            <if expression="media&gt;=5.000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; receber&#225; um b&#244;nus de 10%!!.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente, sem b&#244;nus pra ti, campe&#227;o.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
